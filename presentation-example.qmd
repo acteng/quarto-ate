@@ -1,0 +1,80 @@
+---
+title: "Quarto for presentations"
+author: "Robin Lovelace"
+format: revealjs
+---
+
+## Aims
+
+- Learn about what quarto is
+- See how we've used Quarto in ATE already
+- Learn some basic Quarto code and tips
+- Ideas on how it could be used in future
+
+## What is quarto?
+
+An RMarkdown replacement
+
+
+## What can it do?
+
+Documents
+
+Presentations
+
+Websites
+
+Books
+
+## Documents
+
+Source: [r4ds](https://r4ds.hadley.nz/quarto-formats.html#:~:text=Quarto%20supports%20a%20variety%20of%20presentation%20formats%2C%20including%3A,3%20beamer%20-%20PDF%20presentation%20with%20LaTeX%20Beamer.)
+
+- pdf makes a PDF with LaTeX (an open-source document layout system), which you’ll need to install. RStudio will prompt you if you don’t already have it.
+
+- docx for Microsoft Word (.docx) documents.
+
+- odt for OpenDocument Text (.odt) documents.
+
+- rtf for Rich Text Format (.rtf) documents.
+
+- gfm for a GitHub Flavored Markdown (.md) document.
+
+- ipynb for Jupyter Notebooks (.ipynb).
+
+## Presentations
+
+revealjs — reveal.js (HTML)
+
+pptx — PowerPoint (MS Office)
+
+beamer — Beamer (LaTeX/PDF)
+
+More on presentations: https://rstudio-conf-2022.github.io/get-started-quarto/materials/05-presentations.html#/presentations
+
+## How we've used Quarto in Active Travel England
+
+Example: ATIP analysis
+
+```
+---
+format: gfm
+# format: html
+# format: docx
+title: "Exploratory analysis and cleaning of ATF4 data: ATIP results" 
+number-sections: true
+---
+```
+
+Outputs: See https://github.com/acteng/atip_analysis/blob/main/atf4_analysis.md
+
+## Live demo: travel to schools project
+
+## Next steps
+
+- Documentation
+- Scripts?
+- Multi-lingual projects?
+
+# Thanks for listening!
+
