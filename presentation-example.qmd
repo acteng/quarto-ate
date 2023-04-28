@@ -1,7 +1,11 @@
 ---
 title: "Quarto for presentations"
 author: "Robin Lovelace"
-format: revealjs
+# format: html
+format: gfm
+# format: revealjs
+# format: pptx
+# fontcolor: red
 ---
 
 ## Aims
@@ -11,10 +15,24 @@ format: revealjs
 - Learn some basic Quarto code and tips
 - Ideas on how it could be used in future
 
+```{python}
+#| echo: fenced
+print(1 + 1)
+# print two plus two:
+print(2 + 2)
+# List the files in the directory ../atip_analysis:
+import os
+os.listdir("../atip_analysis")
+```
+
+
 ## What is quarto?
 
 An RMarkdown replacement
 
+```r
+sqrt(2)
+```
 
 ## What can it do?
 
